@@ -1,0 +1,16 @@
+
+#defining the function betterLinearSearch
+def betterLinearSearch(A,x):
+
+    #for loop that is implimented for the length of A
+    for i in range(0, len(A)):
+
+        #if the value of A = x then the index number is printed
+        if A[i] == x: print (i)
+    #if the value of x is not found then -1 is printed    
+    print (-1)
+
+
+#search: defines A and x
+betterLinearSearch([10,5,9,9],8)
+
